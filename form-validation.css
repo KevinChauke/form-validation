@@ -1,0 +1,40 @@
+h3 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+  
+  form {
+    /*height: 100%;
+    width: 80%;*/
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type=text], [type=password], [type=email], [type=code],[type=Address],[type=id]{
+    width: 100%;
+    padding: 3px 10px;
+    margin: 8px 1px;
+    border-radius: 8px;
+  }
+  select {
+    border: solod;
+    border-radius: 4px;
+  }
+  input[type=radio], [type=checkbox]{
+  margin: 8px 8px;
+  }
